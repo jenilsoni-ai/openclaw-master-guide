@@ -33,9 +33,9 @@ openclaw onboard --install-daemon
 
 ### 2. AWS VPS (EC2) Deployment
 Running OpenClaw on an AWS VPS allows your agent to be "always-on" without relying on your local machine.
-- **Recommended Instance**: `t3.medium` (4GB RAM) for optimal performance with browser automation.
+- **Recommended Instance**: `t3.medium` or `m7i-flex.large` (at least 8GB RAM recommended for heavy browser automation).
 - **Operating System**: Ubuntu 22.04 LTS.
-- **Setup Guide**: [Watch the AWS VPS Setup Tutorial](https://www.youtube.com/watch?v=_6ekmb0kiE8)
+- **Setup Guide**: [Install OpenClaw on AWS for Free](https://www.youtube.com/watch?v=9iotTtgS0Ws)
 
 ### 3. Docker Deployment
 For users who prefer containerization, OpenClaw provides a robust Docker setup.
@@ -83,9 +83,9 @@ OpenClaw's flexibility allows it to be used in a variety of professional and per
 | **Security Best Practices** | Essential guide for safe deployment. | [Security Docs](https://github.com/openclaw/openclaw/blob/main/docs/security.md) |
 
 ### Recommended Video Tutorials
-- [Full OpenClaw Setup Tutorial (VPS & Local)](https://www.youtube.com/watch?v=fcZMmP5dsl4)
+- [Install OpenClaw on AWS for Free](https://www.youtube.com/watch?v=9iotTtgS0Ws)
 - [How to Setup OpenClaw Securely (Tech With Tim)](https://www.youtube.com/watch?v=AWu68zRcHHk)
-- [Install OpenClaw in 30 Seconds (Fast Guide)](https://www.youtube.com/watch?v=ZcIqiLLT7Fg)
+- [ClawdBot Full Tutorial for Beginners (Secure Setup)](https://www.youtube.com/watch?v=Qx97iDCCccM)
 
 ---
 
