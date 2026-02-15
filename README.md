@@ -1,4 +1,4 @@
-![OpenClaw Banner](openclaw_banner.png)
+![OpenClaw Banner](openclaw_master_guide.png)
 
 # OpenClaw: The Ultimate Guide to the Open-Source AI Agent Framework
 
