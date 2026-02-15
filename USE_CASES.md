@@ -1,6 +1,7 @@
 # Real-World Use Cases for OpenClaw
 
-OpenClaw is more than just a chatbot; it is a versatile framework for building autonomous agents that can interact with the physical and digital world. This document explores detailed use cases and provides inspiration for what you can build.
+This document provides an overview of what's possible with OpenClaw. For detailed technical implementation guides, please see the `use-cases` directory.
+
 
 ## 1. The "Always-On" Developer Advocate
 Many developer teams use OpenClaw to manage their community presence on platforms like Discord and Slack.
@@ -58,4 +59,4 @@ For content creators, OpenClaw can handle the repetitive parts of video editing 
 The community is constantly sharing new workflows. To see the latest, check out:
 - **[Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills)**: Categorized list of functional skills.
 - **[ClawHub](https://github.com/openclaw/skills)**: The raw repository of all community-contributed skills.
-- **[Reddit r/AI_Agents](https://www.reddit.com/r/AI_Agents/)**: Frequent discussions on OpenClaw implementations.
+- **[Official Reddit r/openclaw](https://www.reddit.com/r/openclaw)**: Join the official community for support and to share your creations.

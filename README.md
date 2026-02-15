@@ -90,5 +90,6 @@ OpenClaw's flexibility allows it to be used in a variety of professional and per
 ---
 
 ## Resources & Community
-- **Skill Registry**: Explore thousands of skills on [ClawHub](https://github.com/openclaw/skills).
+- **Official Reddit**: Join the community at [r/openclaw](https://www.reddit.com/r/openclaw) for support and updates.
+- **Skill Registry**: Explore thousands of functional skills at [ClawHub.ai](https://clawhub.ai).
 - **Official Documentation**: [OpenClaw Docs](https://github.com/openclaw/openclaw/tree/main/docs)
