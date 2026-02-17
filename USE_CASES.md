@@ -12,6 +12,9 @@ OpenClaw is more than just a chatbot; it is a versatile framework for building a
 | **Personal Finance** | API Integration, Data Visualization, Python Processing | [View Guide](use-cases/finance-tracking.md) |
 | **Content Automation** | Vision Analysis, Browser Control, Multi-Platform Scheduling | [View Guide](use-cases/content-automation.md) |
 | **Customer Support** | RAG (Vector Search), CRM Integration, Identity Verification | [View Guide](use-cases/customer-support.md) |
+| **Legal Operations** | PDF Parsing, Deadline Tracking, Compliance Auditing | [View Guide](use-cases/legal-automation.md) |
+| **Real Estate** | Webhook Intake, WhatsApp Outreach, CRM Sync | [View Guide](use-cases/real-estate-leads.md) |
+| **E-commerce Intel** | Competitor Scraping, Price Tracking, Stock Alerts | [View Guide](use-cases/ecommerce-monitoring.md) |
 
 ---
 
