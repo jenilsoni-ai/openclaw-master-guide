@@ -18,6 +18,9 @@ OpenClaw is more than just a chatbot; it is a versatile framework for building a
 | **Cybersecurity** | Threat Hunting, Log Analysis, Incident Triage | [View Guide](use-cases/cybersecurity-threat-hunting.md) |
 | **Academic Research** | Literature Review, Citation Management, Synthesis | [View Guide](use-cases/academic-research.md) |
 | **Healthcare Admin** | Patient Scheduling, HIPAA Workflows, Billing | [View Guide](use-cases/healthcare-admin.md) |
+| **HR & Recruitment** | Resume Screening, Candidate Sourcing, Interview Scheduling | [View Guide](use-cases/hr-recruitment.md) |
+| **Event Management** | Guest Coordination, RSVP Tracking, Vendor Logistics | [View Guide](use-cases/event-management.md) |
+| **Supply Chain** | Shipment Tracking, Inventory Optimization, Demand Forecasting | [View Guide](use-cases/supply-chain-logistics.md) |
 
 ---
 
