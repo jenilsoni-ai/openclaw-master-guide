@@ -21,6 +21,9 @@ OpenClaw is more than just a chatbot; it is a versatile framework for building a
 | **HR & Recruitment** | Resume Screening, Candidate Sourcing, Interview Scheduling | [View Guide](use-cases/hr-recruitment.md) |
 | **Event Management** | Guest Coordination, RSVP Tracking, Vendor Logistics | [View Guide](use-cases/event-management.md) |
 | **Supply Chain** | Shipment Tracking, Inventory Optimization, Demand Forecasting | [View Guide](use-cases/supply-chain-logistics.md) |
+| **Education** | Personalized Tutoring, Course Indexing, Adaptive Quizzing | [View Guide](use-cases/education-tutoring.md) |
+| **RE Investment** | Deal Sourcing, Financial Modeling, Market Auditing | [View Guide](use-cases/real-estate-investment.md) |
+| **Media Production** | Automated Editing, Asset Generation, Multi-Platform Distribution | [View Guide](use-cases/media-production.md) |
 
 ---
 
