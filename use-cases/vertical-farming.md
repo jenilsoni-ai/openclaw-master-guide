@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Vertical Farming & Controlled Environment Agriculture (CEA)
 
 Maximize crop yield and resource efficiency by using OpenClaw to automate climate control, nutrient dosing, and automated harvesting in vertical farms.
@@ -46,3 +48,4 @@ The agent can monitor 'Real-Time Electricity Prices' from the grid. It can then 
 - **System Redundancy**: If the agent loses connection to the control system, it must default to a 'Failsafe' hardware-level environmental profile and alert the emergency team.
 - **Human-in-the-Loop**: Any decision to harvest or change major nutrient formulations must be confirmed by a human Farm Manager via the `canvas` interface.
 - **Resource Efficiency**: The agent should prioritize 'Water & Nutrient Recycling' to minimize the farm's environmental footprint.
+

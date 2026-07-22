@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Supply Chain & Logistics Optimization
 
 Enhance your logistics operations by using OpenClaw to automate shipment tracking, inventory management, and supplier communication.
@@ -42,3 +44,4 @@ The agent can monitor commodity prices (via browser scraping) and automatically 
 - **Data Integrity**: Use the `python` tool to clean and normalize shipping data (e.g., converting all timezones to UTC) before generating reports.
 - **Human Approval**: For any 'Reorder' or 'Price Negotiation' actions, require a manual "Confirm" from the operations manager via the `canvas` interface.
 - **Redundancy**: Configure the agent to check multiple carriers if the primary tracking API is unavailable.
+

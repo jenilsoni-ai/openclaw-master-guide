@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-First Customer Support & CRM Automation
 
 Scale your business by using OpenClaw as an intelligent first-line responder that integrates directly with your customer database and messaging channels.
@@ -43,3 +45,4 @@ Use the `dm-pairing` logic to ensure you are talking to the right person before 
 - **Tone Control**: Ensure the agent uses the "We" pronoun and maintains a helpful, non-robotic tone.
 - **Hand-off**: Always provide a clear way for the user to reach a human.
 - **Privacy**: Redact PII (Personally Identifiable Information) in logs using a custom post-processing script or skill.
+

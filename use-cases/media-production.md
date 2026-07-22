@@ -1,9 +1,11 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Automated Creative Media Production Pipeline
 
 Streamline your content creation workflow by using OpenClaw to automate the repetitive parts of video editing, social media asset generation, and multi-platform distribution.
 
 ## 1. Technical Overview
-This agent acts as an **Orchestrator** for media processing tools (FFmpeg, ImageMagick) and AI creative APIs (OpenAI, Runway, ElevenLabs). It uses the `shell` tool to manage local files and the `canvas` tool to present storyboards and drafts for approval.
+This agent acts as an **Orchestrator** for media processing tools (FFmpeg, ImageMagick) and approved creative-media APIs. It uses the `shell` tool to manage local files and the `canvas` tool to present storyboards and drafts for approval.
 
 ### Required Skills
 - `video-processor`: To perform automated cuts, resizing, and captioning using FFmpeg.

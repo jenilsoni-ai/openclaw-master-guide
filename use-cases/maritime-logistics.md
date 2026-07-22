@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Powered Maritime Logistics & Vessel Tracking
 
 Optimize global shipping operations by using OpenClaw to automate vessel tracking, predictive ETA analysis, and port congestion monitoring.
@@ -42,3 +44,4 @@ The agent can automatically calculate the fuel efficiency and CO2 emissions for 
 - **Data Latency**: AIS data can sometimes be delayed. The agent must always include the 'Data Timestamp' in its reports.
 - **Cybersecurity**: Maritime infrastructure is a high-value target. Ensure the OpenClaw instance uses encrypted communication (TLS 1.3) and is behind a robust firewall.
 - **Human Oversight**: Any decision to reroute a vessel must be confirmed by a human Master or Operations Manager via the `canvas` interface.
+

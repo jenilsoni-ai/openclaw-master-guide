@@ -1,84 +1,94 @@
-# Real-World Use Cases for OpenClaw
+# OpenClaw use-case blueprints
 
-OpenClaw is more than just a chatbot; it is a versatile framework for building autonomous agents that can interact with the physical and digital world. This document provides an overview of practical use cases. For detailed technical implementation guides, please refer to the links in the table below.
+> **Status: Blueprint** — These pages describe architectures and operating patterns, not guaranteed built-in integrations. Skill names and commands inside a blueprint are conceptual unless explicitly marked **Verified command** and linked to the official CLI reference. Validate integrations in a non-production environment and keep consequential actions behind human approval.
 
-## 🚀 Technical Implementation Guides
+The collection contains 46 implementation ideas across software, research, operations, public infrastructure, and regulated domains.
 
-| Use Case | Technical Focus | Implementation Guide |
-| :--- | :--- | :--- |
-| **Market Intelligence** | Browser Automation, Data Extraction, Cron Scheduling | [View Guide](use-cases/market-research.md) |
-| **DevOps Automation** | Shell Execution, GitHub API, Infrastructure-as-Code | [View Guide](use-cases/devops-automation.md) |
-| **Smart Home / IoT** | Webhooks, Local API Integration, Vision Analysis | [View Guide](use-cases/iot-integration.md) |
-| **Personal Finance** | API Integration, Data Visualization, Python Processing | [View Guide](use-cases/finance-tracking.md) |
-| **Content Automation** | Vision Analysis, Browser Control, Multi-Platform Scheduling | [View Guide](use-cases/content-automation.md) |
-| **Customer Support** | RAG (Vector Search), CRM Integration, Identity Verification | [View Guide](use-cases/customer-support.md) |
-| **Legal Operations** | PDF Parsing, Deadline Tracking, Compliance Auditing | [View Guide](use-cases/legal-automation.md) |
-| **Real Estate** | Webhook Intake, WhatsApp Outreach, CRM Sync | [View Guide](use-cases/real-estate-leads.md) |
-| **E-commerce Intel** | Competitor Scraping, Price Tracking, Stock Alerts | [View Guide](use-cases/ecommerce-monitoring.md) |
-| **Cybersecurity** | Threat Hunting, Log Analysis, Incident Triage | [View Guide](use-cases/cybersecurity-threat-hunting.md) |
-| **Academic Research** | Literature Review, Citation Management, Synthesis | [View Guide](use-cases/academic-research.md) |
-| **Healthcare Admin** | Patient Scheduling, HIPAA Workflows, Billing | [View Guide](use-cases/healthcare-admin.md) |
-| **HR & Recruitment** | Resume Screening, Candidate Sourcing, Interview Scheduling | [View Guide](use-cases/hr-recruitment.md) |
-| **Event Management** | Guest Coordination, RSVP Tracking, Vendor Logistics | [View Guide](use-cases/event-management.md) |
-| **Supply Chain** | Shipment Tracking, Inventory Optimization, Demand Forecasting | [View Guide](use-cases/supply-chain-logistics.md) |
-| **Education** | Personalized Tutoring, Course Indexing, Adaptive Quizzing | [View Guide](use-cases/education-tutoring.md) |
-| **RE Investment** | Deal Sourcing, Financial Modeling, Market Auditing | [View Guide](use-cases/real-estate-investment.md) |
-| **Media Production** | Automated Editing, Asset Generation, Multi-Platform Distribution | [View Guide](use-cases/media-production.md) |
-| **Bioinformatics** | Genomic Analysis, Workflow Automation, Literature Search | [View Guide](use-cases/bioinformatics-genomics.md) |
-| **Game Development** | Asset Pipeline, NPC Dialogue, Build Orchestration | [View Guide](use-cases/game-dev-pipeline.md) |
-| **Wellness Coach** | Health Data Analysis, Nutrition Tracking, Proactive Coaching | [View Guide](use-cases/wellness-coaching.md) |
-| **Smart Agriculture** | IoT Monitoring, Precision Irrigation, Crop Health Analysis | [View Guide](use-cases/smart-agriculture.md) |
-| **Maritime Ops** | Vessel Tracking, Port Monitoring, Predictive ETA | [View Guide](use-cases/maritime-logistics.md) |
-| **Renewable Energy** | Solar Optimization, Grid Dispatch, Storage Management | [View Guide](use-cases/renewable-energy.md) |
-| **Luxury Concierge** | Travel Planning, Exclusive Access, Lifestyle Management | [View Guide](use-cases/luxury-concierge.md) |
-| **Space Ops** | Satellite Tracking, Collision Avoidance, Ground Station Link | [View Guide](use-cases/space-ops-satellite.md) |
-| **Disaster Response** | Emergency Coordination, Damage Assessment, SAR Support | [View Guide](use-cases/disaster-response.md) |
-| **Smart Urban** | Traffic Optimization, Public Transport, Urban Auditing | [View Guide](use-cases/smart-urban-planning.md) |
-| **Industry 4.0** | Predictive Maintenance, Anomaly Detection, Digital Twins | [View Guide](use-cases/industry-4-0.md) |
-| **Philanthropy** | Donor Research, Grant Tracking, Impact Reporting | [View Guide](use-cases/philanthropy-nonprofit.md) |
-| **Sports Analytics** | Performance Tracking, Tactical Analysis, Training Load | [View Guide](use-cases/sports-analytics.md) |
-| **Cyber Forensics** | Evidence Collection, Log Correlation, Threat Profiling | [View Guide](use-cases/cybersecurity-forensics.md) |
-| **Precision Ag** | Drone Imagery, NDVI Analysis, Nutrient Application | [View Guide](use-cases/precision-agriculture.md) |
-| **Hospitality RM** | Dynamic Pricing, Demand Forecast, RevPAR Optimization | [View Guide](use-cases/hospitality-revenue.md) |
-| **Mining Ops** | Mineral Exploration, Geological Mapping, Drill Optimization | [View Guide](use-cases/mining-exploration.md) |
-| **Sustainable Fashion** | Supply Chain Traceability, Carbon Tracking, Compliance | [View Guide](use-cases/sustainable-fashion.md) |
-| **Autonomous Lab** | Experiment Design, Lab Automation, Closed-Loop Discovery | [View Guide](use-cases/autonomous-lab.md) |
-| **Architecture** | BIM Auditing, Site Tracking, Safety Compliance | [View Guide](use-cases/architecture-construction.md) |
-| **Conservation** | Wildlife Tracking, Anti-Poaching, Ecosystem Auditing | [View Guide](use-cases/environmental-conservation.md) |
-| **Fraud Detection** | Transaction Monitoring, AML Screening, SAR Generation | [View Guide](use-cases/financial-fraud-detection.md) |
-| **Aviation MX** | Engine Health, Maintenance Schedule, AD Compliance | [View Guide](use-cases/aviation-maintenance.md) |
-| **Waste Management** | Route Optimization, Bin Monitoring, Illegal Dumping | [View Guide](use-cases/waste-management.md) |
-| **Oil & Gas** | Pipeline Integrity, Leak Detection, Corrosion Prediction | [View Guide](use-cases/oil-gas-integrity.md) |
-| **Vertical Farming** | Climate Control, Nutrient Dosing, Harvest Schedule | [View Guide](use-cases/vertical-farming.md) |
-| **E-sports Analysis** | Tactical Replays, Meta Tracking, Scouting Reports | [View Guide](use-cases/esports-analytics.md) |
-| **Last-Mile Delivery** | Fleet Dispatch, Route Optimization, Robot Coordination | [View Guide](use-cases/last-mile-delivery.md) |
+## Software, security, and knowledge work
 
----
+| Blueprint | Primary pattern | Risk boundary |
+| --- | --- | --- |
+| [Academic research](use-cases/academic-research.md) | search, synthesis, citations | verify every source |
+| [Autonomous laboratory](use-cases/autonomous-lab.md) | experiment coordination | no unattended physical actions |
+| [Content automation](use-cases/content-automation.md) | research-to-publishing pipeline | approval before publishing |
+| [Cybersecurity forensics](use-cases/cybersecurity-forensics.md) | evidence collection and correlation | preserve chain of custody |
+| [Cybersecurity threat hunting](use-cases/cybersecurity-threat-hunting.md) | telemetry triage | isolate response actions |
+| [DevOps automation](use-cases/devops-automation.md) | release and incident operations | approval before production change |
+| [Game development pipeline](use-cases/game-dev-pipeline.md) | asset and build coordination | isolate generated assets |
+| [Market research](use-cases/market-research.md) | monitored sources and briefs | respect access and rate limits |
+| [Media production](use-cases/media-production.md) | production workflow orchestration | rights and publication review |
 
-## 🛠️ Common Use Case Overviews
+## Business and customer operations
 
-### 1. The "Always-On" Developer Advocate
-Many developer teams use OpenClaw to manage their community presence on platforms like Discord and Slack.
-- **The Problem**: Maintaining a 24/7 presence to answer technical questions is difficult for small teams.
-- **The Solution**: An OpenClaw agent equipped with a "Documentation Search" skill and a "GitHub Issue" skill.
-- **Workflow**: OpenClaw summarizes documentation for users and automatically opens GitHub issues for unresolved bugs.
+| Blueprint | Primary pattern | Risk boundary |
+| --- | --- | --- |
+| [Customer support](use-cases/customer-support.md) | retrieval and ticket routing | identity and data minimization |
+| [E-commerce monitoring](use-cases/ecommerce-monitoring.md) | price and inventory monitoring | no deceptive interaction |
+| [Event management](use-cases/event-management.md) | RSVP and vendor coordination | approval before outreach |
+| [Hospitality revenue](use-cases/hospitality-revenue.md) | forecasting and pricing support | human pricing review |
+| [HR and recruitment](use-cases/hr-recruitment.md) | candidate workflow assistance | no autonomous employment decision |
+| [Last-mile delivery](use-cases/last-mile-delivery.md) | dispatch and route support | human operational control |
+| [Luxury concierge](use-cases/luxury-concierge.md) | preference-aware coordination | approval before booking or spend |
+| [Philanthropy and nonprofit](use-cases/philanthropy-nonprofit.md) | grant and donor operations | consent and ethical outreach |
+| [Real-estate investment](use-cases/real-estate-investment.md) | deal analysis | no autonomous financial decision |
+| [Real-estate leads](use-cases/real-estate-leads.md) | qualification and CRM routing | consent before contact |
+| [Supply-chain logistics](use-cases/supply-chain-logistics.md) | tracking and inventory decisions | approval before orders |
+| [Sustainable fashion](use-cases/sustainable-fashion.md) | traceability and compliance evidence | verify sustainability claims |
 
-### 2. Autonomous Market Researcher
-Stay ahead of the competition by having an agent that never sleeps.
-- **The Problem**: Manually tracking competitor updates and industry news is time-consuming.
-- **The Solution**: An OpenClaw agent running a scheduled "Web Scraping" and "Summarization" workflow.
-- **Workflow**: Every morning, OpenClaw visits competitor sites, detects changes using its internal browser, and sends a summary to your private chat.
+## Industrial, energy, and infrastructure
 
-### 3. The "Smart" Home Concierge
-Bridge the gap between your chat apps and your home automation system.
-- **The Problem**: Smart home apps can be clunky and require multiple steps for simple actions.
-- **The Solution**: Integrating OpenClaw with your local IoT gateway (e.g., Home Assistant).
-- **Workflow**: Send a simple message like "I'm heading home" to trigger a series of local API calls to adjust lighting and climate.
+| Blueprint | Primary pattern | Risk boundary |
+| --- | --- | --- |
+| [Architecture and construction](use-cases/architecture-construction.md) | project and safety monitoring | no autonomous safety certification |
+| [Aviation maintenance](use-cases/aviation-maintenance.md) | maintenance intelligence | qualified engineer sign-off |
+| [Industry 4.0](use-cases/industry-4-0.md) | telemetry and predictive maintenance | hardware failsafes |
+| [Maritime logistics](use-cases/maritime-logistics.md) | vessel and port coordination | human navigation authority |
+| [Mining exploration](use-cases/mining-exploration.md) | geospatial decision support | field and environmental review |
+| [Oil and gas integrity](use-cases/oil-gas-integrity.md) | anomaly and integrity monitoring | safety-system independence |
+| [Renewable energy](use-cases/renewable-energy.md) | generation and storage optimization | grid operator approval |
+| [Space operations](use-cases/space-ops-satellite.md) | tracking and ground operations | no autonomous critical command |
+| [Waste management](use-cases/waste-management.md) | sensing and route optimization | human dispatch authority |
 
----
+## Agriculture and environment
 
-## Where to Find More
-The community is constantly sharing new workflows. To see the latest, check out:
-- **[Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills)**: Categorized list of functional skills.
-- **[ClawHub.ai](https://clawhub.ai)**: The official public skill registry for OpenClaw.
-- **[Official Reddit r/openclaw](https://www.reddit.com/r/openclaw)**: Join the official community for support and to share your creations.
+| Blueprint | Primary pattern | Risk boundary |
+| --- | --- | --- |
+| [Environmental conservation](use-cases/environmental-conservation.md) | sensor and field intelligence | protect sensitive locations |
+| [Precision agriculture](use-cases/precision-agriculture.md) | imagery and treatment planning | approval before application |
+| [Smart agriculture](use-cases/smart-agriculture.md) | farm monitoring and control | hardware failsafes |
+| [Vertical farming](use-cases/vertical-farming.md) | climate and nutrient control | independent safety limits |
+
+## Health, education, finance, and legal
+
+| Blueprint | Primary pattern | Risk boundary |
+| --- | --- | --- |
+| [Bioinformatics and genomics](use-cases/bioinformatics-genomics.md) | scientific pipeline coordination | protect genomic data |
+| [Education and tutoring](use-cases/education-tutoring.md) | adaptive learning assistance | educator and guardian oversight |
+| [Finance tracking](use-cases/finance-tracking.md) | read-only aggregation and reports | no transaction authority |
+| [Financial fraud detection](use-cases/financial-fraud-detection.md) | anomaly triage | no autonomous enforcement |
+| [Healthcare administration](use-cases/healthcare-admin.md) | scheduling and document workflow | protect health information |
+| [Legal automation](use-cases/legal-automation.md) | document and deadline assistance | qualified legal review |
+| [Wellness coaching](use-cases/wellness-coaching.md) | habit and wearable summaries | not diagnosis or treatment |
+
+## Cities, response, sports, and culture
+
+| Blueprint | Primary pattern | Risk boundary |
+| --- | --- | --- |
+| [Disaster response](use-cases/disaster-response.md) | situational awareness and coordination | incident commander authority |
+| [E-sports analytics](use-cases/esports-analytics.md) | replay and performance analysis | competition-rule compliance |
+| [Smart urban planning](use-cases/smart-urban-planning.md) | city data and scenario analysis | privacy and public review |
+| [Sports analytics](use-cases/sports-analytics.md) | performance and tactical briefs | medical and coaching oversight |
+
+## Blueprint implementation contract
+
+Before turning any page into a working system, define:
+
+1. Real integrations and their authentication model.
+2. Data classification, retention, and allowed destinations.
+3. Read-only and mutation-capable tools as separate capability sets.
+4. Sender allowlists, sandbox scope, and approval rules.
+5. Idempotency, retry, rate-limit, and failure behavior.
+6. Evidence required before the workflow may report completion.
+7. A rollback or safe-stop path.
+
+Start with [Security hardening](docs/SECURITY.md) and [Automation](docs/AUTOMATION.md).

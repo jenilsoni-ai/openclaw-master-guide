@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Autonomous Personal Finance & Expense Triage
 
 Manage your financial health by automating the collection, categorization, and reporting of expenses across multiple accounts and platforms.
@@ -44,3 +46,4 @@ The agent can scan your email for "Your subscription has renewed" keywords, cros
 - **Local Storage**: Keep the financial CSVs on your local encrypted drive.
 - **Minimal Scopes**: Use "Read-Only" API keys whenever possible.
 - **Manual Approval**: Require a manual "Confirm" for any outgoing payment or transfer actions.
+

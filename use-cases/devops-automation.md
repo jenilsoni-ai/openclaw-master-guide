@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Powered DevOps & Infrastructure Management
 
 Transform your communication channels (Slack/Telegram) into a command center for your infrastructure using OpenClaw's shell and API integration capabilities.
@@ -43,3 +45,4 @@ Once set up, you can interact with your infrastructure via chat:
 ## 4. Safety Considerations
 - **Restricted Shell**: Use a restricted shell environment or a Docker sandbox to prevent the agent from executing destructive commands like `rm -rf /`.
 - **Approval Gates**: For critical actions (e.g., deploying to production), configure the agent to ask for human confirmation via the `approval` tool.
+

@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: HIPAA-Compliant Healthcare Administration & Scheduling
 
 Improve patient experience and reduce administrative burden by using OpenClaw to manage appointments, patient inquiries, and billing workflows in a secure environment.
@@ -39,3 +41,4 @@ The agent can automatically send a secure message to patients 24 hours after the
 - **Encryption at Rest**: All patient data stored in the OpenClaw workspace must be encrypted using AES-256.
 - **Access Control**: Use Multi-Factor Authentication (MFA) for any staff member accessing the OpenClaw management console.
 - **De-identification**: For any data used in 'Insight Reports' (e.g., average wait times), the agent must automatically remove all PII.
+

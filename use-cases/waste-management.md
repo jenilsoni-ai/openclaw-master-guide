@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Smart City Waste Management & Route Optimization
 
 Maximize urban cleanliness and operational efficiency by using OpenClaw to automate waste bin monitoring, dynamic collection routing, and environmental impact tracking.
@@ -46,3 +48,4 @@ The agent can analyze 'Waste Composition' data from sensors or sorting facilitie
 - **Data Privacy**: Citizen data from reporting portals MUST be handled according to strict municipal privacy policies and relevant laws (e.g., GDPR).
 - **Human-in-the-Loop**: Any decision to reroute major fleet operations or launch enforcement actions must be confirmed by a human Operations Manager via the `canvas` interface.
 - **Sustainability**: The agent should prioritize 'Emissions Reduction' in all route optimization tasks to minimize the city's environmental footprint.
+

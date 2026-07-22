@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven E-sports Tactical Meta-Analysis & Pro-Coaching
 
 Maximize competitive performance by using OpenClaw to automate match replay analysis, meta-trend tracking, and personalized pro-player coaching briefs.
@@ -46,3 +48,4 @@ The agent can process 'Live Match Data' (with the allowed delay). It uses **Pred
 - **Data Privacy**: Pro-player performance and strategy data is highly sensitive. The OpenClaw instance MUST be deployed on a secured server with strict access control.
 - **Human-in-the-Loop**: All AI-generated coaching briefs and scouting reports must be reviewed and validated by a human Head Coach before being shared with the players.
 - **Psychological Safety**: The agent should provide feedback in a 'Constructive and Supportive' manner to maintain player morale and mental health.
+

@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Autonomous Personalized Wellness & Health Coaching
 
 Improve your health outcomes by using OpenClaw to integrate with wearable data, analyze nutrition, and provide proactive, personalized coaching.
@@ -46,3 +48,4 @@ The agent can monitor your 'Readiness' score and automatically adjust your calen
 - **Data Encryption**: All biometric and health data MUST be stored in an encrypted local workspace (AES-256).
 - **Medical Disclaimer**: The agent must always include a standard medical disclaimer: "I am an AI assistant, not a doctor. Consult a medical professional before making significant health changes."
 - **Consent-First**: The agent should only access health APIs after explicit, time-limited user consent is provided via the `openclaw` auth flow.
+

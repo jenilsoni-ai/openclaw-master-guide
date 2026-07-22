@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Financial Fraud Detection & AML Compliance
 
 Maximize financial security and regulatory compliance by using OpenClaw to automate fraud detection, anti-money laundering (AML) screening, and suspicious activity reporting.
@@ -47,3 +49,4 @@ The agent can perform 'Network Analysis' on transaction data to identify complex
 - **Explainability**: All AI-generated fraud alerts and SAR drafts MUST include a clear 'Reasoning Path' to explain why the activity was flagged, to comply with regulatory requirements.
 - **Human-in-the-Loop**: Any decision to freeze an account or file a SAR with regulators must be confirmed by a human Compliance Officer via the `canvas` interface.
 - **Auditability**: The agent must maintain a tamper-proof log of all transaction monitoring, research, and alerting activities for regulatory audits.
+

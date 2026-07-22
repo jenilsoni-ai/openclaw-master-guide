@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Disaster Response & Emergency Coordination
 
 Optimize emergency operations by using OpenClaw to automate disaster monitoring, rapid damage assessment, and field team coordination.
@@ -45,3 +47,4 @@ The agent can analyze thermal imagery or drone video feeds from SAR missions. It
 - **Data Integrity**: In the chaos of a disaster, false information is common. The agent must cross-reference reports from multiple sources before escalating to a 'High Priority' alert.
 - **Human Oversight**: Any decision to deploy resources or reroute teams must be confirmed by a human Incident Commander via the `canvas` interface.
 - **Battery & Power**: Ensure the OpenClaw instance is on a robust Uninterruptible Power Supply (UPS) or solar-backed battery system.
+

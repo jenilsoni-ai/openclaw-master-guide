@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Multi-Platform Content Production & Distribution
 
 Automate the lifecycle of content creation—from initial research and drafting to formatting and cross-platform scheduling.
@@ -40,3 +42,4 @@ The agent can monitor your YouTube comments or X mentions. It uses sentiment ana
 - **Voice Consistency**: Provide the agent with 3-5 examples of your previous posts to help it mimic your writing style.
 - **Approval Gates**: Always use the `openclaw approval` mechanism before the agent clicks "Post" on any public platform.
 - **Media Handling**: Use the `media-pipeline` to automatically resize images for different platform requirements (e.g., 16:9 for YouTube, 1:1 for Instagram).
+

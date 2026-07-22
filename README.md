@@ -1,95 +1,116 @@
-![OpenClaw Banner](https://private-us-east-1.manuscdn.com/sessionFile/LsNWFZ7pP0a7Ntet6QTPxg/sandbox/cGbMpwThFGKMoyF5ftCXoR-images_1771167913167_na1fn_L2hvbWUvdWJ1bnR1L29wZW5jbGF3LW1hc3Rlci1ndWlkZS9vcGVuY2xhd19iYW5uZXI.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvTHNOV0ZaN3BQMGE3TnRldDZRVFB4Zy9zYW5kYm94L2NHYk1wd1RoRkdLTW95RjVmdENYb1ItaW1hZ2VzXzE3NzExNjc5MTMxNjdfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwyOXdaVzVqYkdGM0xXMWhjM1JsY2kxbmRXbGtaUzl2Y0dWdVkyeGhkMTlpWVc1dVpYSS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=q12KhjmcVQm0ICSy9crqY-asYeRuvYJmcqXoBj-aTucDMxF05tliZfeMVmH1QoKFn30baxSPUM1cGywmZ3VpNt2pzWFWC5k4bAYEVMjPCX54xWHPFB9Fw5sBzlGDPBuLMKGGPT~2JNxd8OCq0JS33zM3W23hGqIVjqAtVXWHoMHQ1A7Bkwg6VGh7lIQl2Gjar-N-LK8eesXvUDc2BjsbIva-WN4NHK-aWAm~pQPjkQeFVteJrWUQ1poKwp2XC0jQ64blJ5avj7GjSs5g2xTypKug0uFhCTLfmEFAL39woB3e2GXXkuj5tdjGfk2l4MOOYSRTbO6isdJYw1uq-v6V4A__)
+<p align="center">
+  <img src="openclaw_banner.png" alt="OpenClaw Master Guide" width="100%">
+</p>
 
-# OpenClaw: The Ultimate Guide to the Open-Source AI Agent Framework
+<h1 align="center">OpenClaw Master Guide</h1>
 
-Welcome to the comprehensive guide for **OpenClaw** (formerly known as Clawdbot and Moltbot). This repository serves as a detailed resource for understanding, installing, and leveraging OpenClaw to build powerful autonomous AI workflows.
+<p align="center">
+  A practical field manual for installing, understanding, securing, and operating OpenClaw.
+</p>
 
-## What is OpenClaw?
+<p align="center">
+  <a href="https://github.com/openclaw/openclaw"><img alt="Upstream" src="https://img.shields.io/badge/upstream-openclaw%2Fopenclaw-ef4444"></a>
+  <a href="https://docs.openclaw.ai"><img alt="Documentation" src="https://img.shields.io/badge/docs-official-111827"></a>
+  <a href="SECURITY.md"><img alt="Security" src="https://img.shields.io/badge/posture-security--first-16a34a"></a>
+</p>
 
-**OpenClaw** is a state-of-the-art, open-source autonomous AI agent framework designed to function as a personal assistant that lives within your existing communication channels. Unlike centralized AI services, OpenClaw is built with a **local-first philosophy**, meaning it runs on your own hardware, giving you full control over your data and integrations.
+> [!IMPORTANT]
+> This is an independent learning and operations guide. OpenClaw changes quickly; commands in the **Verified path** are checked against the official documentation, while pages marked **Blueprint** describe designs that require your own integrations.
 
-The framework is highly extensible, supporting a vast ecosystem of "skills" that allow the agent to perform specialized tasks—from managing your calendar to controlling your smart home or even writing and deploying code.
+## Start here
 
-| Feature | Description |
-| :--- | :--- |
-| **Multi-Channel** | Integration with WhatsApp, Telegram, Slack, Discord, Signal, iMessage, and more. |
-| **Local-First** | Runs on macOS, Linux, and Windows (via WSL2), ensuring privacy and low latency. |
-| **Extensible** | Access to over 5,000 community-built skills via the ClawHub registry. |
-| **Autonomous** | Capable of running long-duration tasks without constant human intervention. |
-| **Voice & Vision** | Built-in support for voice interactions and a live visual canvas (A2UI). |
+| Your goal | Read this |
+| --- | --- |
+| Install and send the first message | [Quickstart](docs/QUICKSTART.md) |
+| Understand Gateway, agents, sessions, and nodes | [Architecture](docs/ARCHITECTURE.md) |
+| Shape identity, behavior, memory, and heartbeats | [Workspace files](docs/WORKSPACE.md) |
+| Choose cron, heartbeat, hooks, or task flows | [Automation](docs/AUTOMATION.md) |
+| Harden a real deployment | [Security hardening](docs/SECURITY.md) |
+| Operate an always-on instance | [Production operations](docs/PRODUCTION.md) |
+| Route multiple isolated agents | [Multi-agent systems](docs/MULTI_AGENT.md) |
+| Diagnose a broken installation | [Troubleshooting](docs/TROUBLESHOOTING.md) |
+| Look up safe, verified commands | [Command reference](docs/COMMAND_REFERENCE.md) |
+| Explore implementation ideas | [46 use-case blueprints](USE_CASES.md) |
 
----
+## The 10-minute verified path
 
-## Deployment & Installation
+Requirements: a supported macOS, Linux, or Windows environment and a model-provider credential. Current OpenClaw documentation recommends Node 24; the installer handles Node automatically.
 
-OpenClaw can be installed locally for personal use or deployed on a VPS for 24/7 availability.
+### macOS, Linux, or WSL2
 
-### 1. Local Installation
-Ensure you have **Node.js version 22 or higher** installed.
 ```bash
-npm install -g openclaw@latest
+curl -fsSL https://openclaw.ai/install.sh | bash
 openclaw onboard --install-daemon
 ```
 
-### 2. AWS VPS (EC2) Deployment
-Running OpenClaw on an AWS VPS allows your agent to be "always-on" without relying on your local machine.
-- **Recommended Instance**: `t3.medium` or `m7i-flex.large` (at least 8GB RAM recommended for heavy browser automation).
-- **Operating System**: Ubuntu 22.04 LTS.
-- **Setup Guide**: [Install OpenClaw on AWS for Free](https://www.youtube.com/watch?v=9iotTtgS0Ws)
+### Windows PowerShell
 
-### 3. Docker Deployment
-For users who prefer containerization, OpenClaw provides a robust Docker setup.
-```bash
-git clone https://github.com/openclaw/openclaw.git
-cd openclaw
-docker-compose up -d
+```powershell
+iwr -useb https://openclaw.ai/install.ps1 | iex
+openclaw onboard --install-daemon
 ```
-- **Resource**: [Detailed Docker Setup Guide](https://til.simonwillison.net/llms/openclaw-docker)
 
-### 4. Other Hosting Options
-| Provider | Method | Link |
-| :--- | :--- | :--- |
-| **DigitalOcean** | 1-Click App | [DO Guide](https://www.digitalocean.com/community/tutorials/how-to-run-openclaw) |
-| **Hostinger** | VPS + Docker | [Hostinger Tutorial](https://www.youtube.com/watch?v=XvEDmYObHaI) |
-| **Cloudflare** | Moltworker | [Cloudflare Repo](https://github.com/cloudflare/moltworker) |
+### Verify
+
+```bash
+openclaw gateway status
+openclaw dashboard
+```
+
+Before connecting a public or team channel, complete the [security hardening checklist](docs/SECURITY.md).
+
+## Mental model
+
+```mermaid
+flowchart TD
+    C["Channels and Control UI"] --> G["Gateway"]
+    G --> R["Routing and sessions"]
+    R --> A["Agent runtime"]
+    A --> W["Workspace and memory"]
+    A --> T["Tools, skills, and approvals"]
+    G --> N["Paired nodes"]
+```
+
+- **Gateway** is the long-lived control plane for channels, routing, sessions, automation, and connected nodes.
+- **Agent** is an isolated runtime with its own workspace, credentials, model registry, and session history.
+- **Workspace** supplies persistent operating instructions such as `AGENTS.md`, `SOUL.md`, and `HEARTBEAT.md`.
+- **Skills and tools** add capabilities. Tool policy, sandboxing, approvals, and allowlists enforce the real boundary.
+- **Sessions** carry conversational state; memory files preserve selected knowledge beyond a single session.
+
+## Repository map
+
+```text
+.
+├── README.md                 # Start page and navigation
+├── USE_CASES.md              # Index of blueprint implementations
+├── docs/                     # Verified concepts and operating guides
+├── templates/basic/          # Safe workspace starter files
+├── use-cases/                # Industry implementation blueprints
+├── scripts/check_docs.py     # Local and CI documentation validation
+├── CONTRIBUTING.md           # Contribution workflow
+└── SECURITY.md               # Security reporting policy
+```
+
+## What this guide guarantees
+
+- Verified command blocks link back to official documentation.
+- Conceptual skills and integrations are labeled as blueprints.
+- Security advice treats external content as untrusted input.
+- Destructive, financial, medical, legal, infrastructure, and public-facing actions require explicit human approval.
+- Repository checks validate internal links, documentation structure, and attribution constraints.
+
+## Upstream sources
+
+- [Official OpenClaw documentation](https://docs.openclaw.ai)
+- [Official OpenClaw repository](https://github.com/openclaw/openclaw)
+- [Gateway security guide](https://docs.openclaw.ai/gateway/security)
+- [CLI reference](https://docs.openclaw.ai/cli)
+- [Release notes](https://docs.openclaw.ai/releases)
+
+## Contributing
+
+Corrections, tested recipes, safer defaults, and reproducible examples are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ---
 
-## Real-World Use Cases
-
-OpenClaw's flexibility allows it to be used in a variety of professional and personal scenarios. Below are some of the most impactful ways people are currently using the framework.
-
-### 1. Developer Productivity & DevOps
-- **CI/CD Triggers**: Start a build or deploy a staging environment directly from a Telegram message.
-- **Code Auditing**: Automatically scan new pull requests for security vulnerabilities.
-- **Infrastructure Management**: Monitor server health and restart services via WhatsApp.
-
-### 2. Marketing & Content Automation
-- **Lead Generation**: Monitor X (Twitter) for specific keywords and engage with potential leads automatically.
-- **Content Distribution**: Take a single piece of content and format/distribute it across Slack, Discord, and LinkedIn.
-
-### 3. Personal Assistant & IoT
-- **Smart Home Control**: Connect OpenClaw to your IoT devices to control lights and cameras via chat.
-- **Financial Tracking**: Use skills to pull data from banking APIs and generate weekly spending reports.
-
----
-
-## Featured Skills & Resources
-
-| Project | Description | Link |
-| :--- | :--- | :--- |
-| **Official OpenClaw** | The core framework and gateway. | [GitHub](https://github.com/openclaw/openclaw) |
-| **Awesome Skills** | A curated list of over 3,000 community skills. | [GitHub](https://github.com/VoltAgent/awesome-openclaw-skills) |
-| **Security Best Practices** | Essential guide for safe deployment. | [Security Docs](https://github.com/openclaw/openclaw/blob/main/docs/security.md) |
-
-### Recommended Video Tutorials
-- [Install OpenClaw on AWS for Free](https://www.youtube.com/watch?v=9iotTtgS0Ws)
-- [How to Setup OpenClaw Securely (Tech With Tim)](https://www.youtube.com/watch?v=AWu68zRcHHk)
-- [ClawdBot Full Tutorial for Beginners (Secure Setup)](https://www.youtube.com/watch?v=Qx97iDCCccM)
-
----
-
-## Resources & Community
-- **Official Reddit**: Join the community at [r/openclaw](https://www.reddit.com/r/openclaw) for support and updates.
-- **Skill Registry**: Explore thousands of functional skills at [ClawHub.ai](https://clawhub.ai).
-- **Official Documentation**: [OpenClaw Docs](https://github.com/openclaw/openclaw/tree/main/docs)
+Maintained by [thejenilsoni](https://github.com/thejenilsoni).

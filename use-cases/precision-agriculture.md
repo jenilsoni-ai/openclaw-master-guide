@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Precision Agriculture & Drone Imagery Analysis
 
 Maximize crop yields and resource efficiency by using OpenClaw to automate drone flight scheduling, multispectral imagery analysis, and precision nutrient application.
@@ -46,3 +48,4 @@ The agent can predict optimal harvest windows for each field based on cumulative
 - **Data Integrity**: Multispectral data is highly sensitive to lighting. The agent must verify 'Sunlight Calibration' data before running any NDVI or stress analysis.
 - **Human-in-the-Loop**: Any decision to apply chemical treatments or reroute drone missions must be confirmed by a human Farm Manager via the `canvas` interface.
 - **Sustainability**: The agent should prioritize 'Precision Application' to minimize chemical runoff and environmental impact.
+

@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Industry 4.0 & AI-Driven Predictive Maintenance
 
 Maximize factory uptime and operational efficiency by using OpenClaw to automate industrial sensor monitoring, fault detection, and maintenance scheduling.
@@ -45,3 +47,4 @@ The agent can maintain a 'Digital Twin' of the factory floor. It synchronizes re
 - **Air-Gapped Protection**: Use a secure data diode to allow the agent to receive sensor data without exposing the OT network to the public internet.
 - **Manual Overrides**: All automated maintenance actions (e.g., slowing down a machine) MUST have a physical manual override for operator safety.
 - **Compliance Logging**: The agent must maintain a tamper-proof log of all sensor data and maintenance actions to comply with industrial safety standards (e.g., ISO 55000).
+

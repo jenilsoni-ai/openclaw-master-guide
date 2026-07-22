@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Environmental Conservation & Wildlife Tracking
 
 Maximize biodiversity protection and ecosystem health by using OpenClaw to automate wildlife tracking, anti-poaching monitoring, and environmental impact auditing.
@@ -46,3 +48,4 @@ The agent can process images from remote camera traps. It uses **Computer Vision
 - **Discretion**: The agent must never share wildlife location data with third parties or the public without explicit, time-limited authorization from the conservation agency.
 - **Human-in-the-Loop**: Any decision to deploy rangers or launch drones must be confirmed by a human Conservation Manager via the `canvas` interface.
 - **Minimal Disturbance**: The agent should prioritize 'Non-Invasive' monitoring techniques to minimize the impact on the animals and their environment.
+

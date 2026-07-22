@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Hospitality Revenue Management & Dynamic Pricing
 
 Maximize RevPAR (Revenue Per Available Room) and ADR (Average Daily Rate) by using OpenClaw to automate competitor rate shopping, demand forecasting, and dynamic pricing adjustments.
@@ -45,3 +47,4 @@ The agent can analyze guest booking history and preferences (via the PMS). When 
 - **Brand Integrity**: The agent must never lower rates below the 'Brand Floor Price' to protect long-term ADR and brand positioning.
 - **Human-in-the-Loop**: Any decision to adjust rates in the PMS or launch 'Flash Sales' must be confirmed by a human Revenue Manager via the `canvas` interface.
 - **Fair Play**: Ensure all rate-shopping and pricing activities comply with OTA parity agreements and local competition laws.
+

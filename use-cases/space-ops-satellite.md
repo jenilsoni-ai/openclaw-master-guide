@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Space Operations & Satellite Tracking
 
 Optimize orbital management by using OpenClaw to automate satellite tracking, collision avoidance analysis, and ground station communication.
@@ -45,3 +47,4 @@ The agent can suggest orbital maneuvers to avoid collisions or optimize fuel usa
 - **Air-Gapped Operation**: For sensitive missions, deploy OpenClaw on an air-gapped local network with a secure data diode for incoming TLE updates.
 - **Human-in-the-Loop**: All maneuver commands MUST be reviewed and signed off by a certified Flight Controller before being transmitted to the satellite.
 - **Fail-Safe**: If the agent loses connection to the SSA data feeds, it must switch to the last known 'Safe State' propagation and alert the team.
+

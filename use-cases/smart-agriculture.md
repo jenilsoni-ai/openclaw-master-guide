@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Smart Agriculture & Precision Farming
 
 Maximize crop yields and resource efficiency by using OpenClaw to automate soil monitoring, irrigation scheduling, and pest detection.
@@ -45,3 +47,4 @@ The agent can analyze historical sensor data, weather patterns, and satellite im
 - **Fail-Safe Logic**: If the 'Soil Moisture' sensors fail to report data for more than 12 hours, the agent must alert the operator and switch to a 'Conservative Default' irrigation schedule.
 - **Local Network**: Keep the IoT gateway on a separate, secured VLAN to prevent unauthorized access to the farm's physical infrastructure.
 - **Calibration**: Regularly verify AI-generated 'Health Alerts' with physical field scouting to ensure the vision models remain accurate for your specific crop varieties.
+
