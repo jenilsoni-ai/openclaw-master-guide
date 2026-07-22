@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Mining & Mineral Exploration
 
 Optimize geological surveys and resource estimation by using OpenClaw to automate hyperspectral data analysis, geological mapping, and drill-site selection.
@@ -46,3 +48,4 @@ The agent can monitor tailings dams and mining waste sites using satellite inter
 - **Physical Safety**: The agent must never authorize physical drilling or blasting; all AI-generated targets MUST be validated by a human Geologist and Safety Officer.
 - **Environmental Compliance**: The agent must verify 'Protected Area' boundaries and 'Environmental Permits' before suggesting any exploratory activity.
 - **Reliability**: If the agent loses connection to the GIS or satellite data feeds, it must switch to a 'Read-Only' historical analysis mode and alert the operations team.
+

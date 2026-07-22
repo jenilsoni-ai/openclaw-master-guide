@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Personalized AI Tutoring & Educational Support
 
 Transform the learning experience by using OpenClaw to create a 24/7 personalized tutor that manages student queries, tracks progress, and adapts to individual learning styles.
@@ -42,3 +44,4 @@ The agent can analyze photos of handwritten notes or diagrams using **Vision Ana
 - **Academic Integrity**: Configure the agent to refuse to "write the full essay" for the student, focusing instead on outlining and brainstorming.
 - **Tone Control**: Ensure the agent remains encouraging and patient, adapting its language complexity based on the student's level.
 - **Data Privacy**: Keep all student interaction data in an encrypted local workspace, ensuring no personal learning data is used to train public models.
+

@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Intelligent Smart Home & IoT Concierge
 
 Integrate OpenClaw with your local IoT ecosystem (e.g., Home Assistant) to create a natural language interface for your physical environment.
@@ -48,3 +50,4 @@ Combine the `market-research` skill with `iot-integration`:
 - **Local Network**: Keep your IoT agent on a separate VLAN if possible.
 - **Encryption**: Always use HTTPS for internal API calls to prevent credential sniffing.
 - **Pairing Only**: Never set your IoT channel to `dmPolicy="open"`.
+

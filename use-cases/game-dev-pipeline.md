@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Autonomous Game Development Asset Pipeline & NPC Orchestration
 
 Accelerate game development by using OpenClaw to automate asset processing, generate dynamic NPC dialogue, and manage build pipelines directly from your chat interface.
@@ -43,3 +45,4 @@ The agent can be scripted to "play" the game using simulated inputs. It can navi
 - **LFS Management**: Ensure the agent is configured to handle Large File Storage (LFS) correctly to avoid corrupting binary assets.
 - **Build Isolation**: Run build tasks in a dedicated CI/CD container to prevent the agent from consuming all local resources during development hours.
 - **Review Cycle**: All AI-generated dialogue or code must be flagged for human review before being merged into the production branch.
+

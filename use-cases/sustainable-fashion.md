@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Sustainable Fashion & Supply Chain Traceability
 
 Maximize transparency and ethical compliance by using OpenClaw to automate supply chain mapping, carbon footprint tracking, and sustainability certification auditing.
@@ -46,3 +48,4 @@ The agent can monitor global news feeds and social media for any 'Labor Violatio
 - **Ethical Research**: The agent must only use publicly available data or verified supplier data for research and must never share sensitive brand information with third parties.
 - **Human-in-the-Loop**: Any decision to cancel a production order or change a supplier must be confirmed by a human Sourcing Manager via the `canvas` interface.
 - **Transparency Compliance**: Ensure all consumer-facing sustainability data complies with relevant greenwashing regulations (e.g., EU Green Claims Directive).
+

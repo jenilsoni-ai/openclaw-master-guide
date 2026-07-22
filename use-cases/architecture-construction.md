@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Architecture & Construction Management
 
 Optimize project lifecycles and site safety by using OpenClaw to automate BIM (Building Information Modeling) auditing, site progress tracking, and safety compliance monitoring.
@@ -46,3 +48,4 @@ The agent can monitor live video feeds from the construction site. If it detects
 - **Physical Safety**: The agent must never authorize physical site activity; all AI-generated alerts and schedules MUST be validated by a human Superintendent or Safety Officer.
 - **Regulatory Compliance**: The agent must verify 'Local Building Codes' and 'Environmental Permits' before suggesting any design or site changes.
 - **Privacy**: Ensure all PII (Personally Identifiable Information) is redacted from site imagery before analysis, according to corporate policy and local laws.
+

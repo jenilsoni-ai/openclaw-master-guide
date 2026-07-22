@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Autonomous Academic Research & Literature Synthesis
 
 Accelerate your scientific workflow by using OpenClaw to find, read, and synthesize academic literature with high precision and proper citation management.
@@ -42,3 +44,4 @@ The agent can monitor portals like Grants.gov or specific university research of
 - **Source Verification**: Always have the agent provide the DOI or direct URL for every claim it makes.
 - **Hallucination Check**: Use the `fact-check` skill to cross-reference AI-generated summaries with the original PDF text.
 - **Collaboration**: Share your OpenClaw workspace with your lab team to maintain a centralized, searchable repository of all research findings.
+

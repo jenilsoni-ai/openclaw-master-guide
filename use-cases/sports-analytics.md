@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Sports Analytics & High-Performance Coaching
 
 Maximize athlete performance and game strategy by using OpenClaw to automate performance tracking, tactical analysis, and training load optimization.
@@ -47,3 +49,4 @@ During a game, the agent can monitor live event data (via a sports data API). If
 - **Medical Disclaimer**: The agent must always include a standard medical disclaimer: "I am an AI assistant, not a doctor or physiotherapist. Consult a medical professional before making significant health or training changes."
 - **Informed Consent**: The agent should only access athlete data after explicit, time-limited consent is provided via the `openclaw` auth flow.
 - **Fair Play**: Ensure the use of AI in tactical analysis complies with the rules and regulations of the specific sports league or governing body.
+

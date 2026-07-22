@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Real Estate Investment Analysis & Deal Sourcing
 
 Gain a competitive edge in the property market by using OpenClaw to automate deal sourcing, financial modeling, and market trend analysis.
@@ -38,3 +40,4 @@ The agent can monitor local government portals for "Notice of Default" or "Tax D
 - **Speed to Lead**: In a hot market, the first person to see a deal often wins. OpenClaw ensures you are notified within minutes of a listing going live.
 - **Data Normalization**: Use the `python` tool to convert all property data into a standardized CSV format for easy comparison across different platforms.
 - **Risk Assessment**: Have the agent calculate a 'Worst Case' scenario for every deal (e.g., 20% vacancy rate) to ensure the investment remains viable under stress.
+

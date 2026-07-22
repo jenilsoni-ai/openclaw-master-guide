@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Powered Bioinformatics & Genomics Analysis
 
 Accelerate biological research by using OpenClaw to automate complex data pipelines, analyze genomic sequences, and manage large-scale datasets with precision and reproducibility.
@@ -44,3 +46,4 @@ The agent can analyze raw genetic data from consumer testing services (e.g., 23a
 - **Data Privacy**: All genetic data is processed locally within the secure workspace. No sensitive data is ever sent to external APIs.
 - **Reproducibility**: The agent automatically logs all commands, tool versions, and parameters used in a workflow, ensuring any analysis can be perfectly reproduced.
 - **Human-in-the-Loop**: For any analysis that could have clinical implications, the results must be reviewed and validated by a qualified geneticist before being shared.
+

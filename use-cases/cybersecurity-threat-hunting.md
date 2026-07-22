@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Cybersecurity Threat Hunting & Incident Response
 
 Empower your SOC (Security Operations Center) by using OpenClaw to automate log analysis, threat intelligence gathering, and initial incident triage.
@@ -42,3 +44,4 @@ The agent can monitor a 'phishing-report' inbox. It automatically extracts URLs/
 - **Read-Only Access**: Grant the agent read-only access to logs and SIEM APIs to prevent accidental data deletion.
 - **Manual Block Confirmation**: For critical infrastructure, require a human "Approve" before the agent modifies firewall rules.
 - **Credential Safety**: Use environment variables for API keys; never let the agent "see" the raw keys in its prompt.
+

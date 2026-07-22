@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Powered Event Management & Guest Coordination
 
 Maximize event attendance and streamline logistics by using OpenClaw to automate guest communication, RSVP tracking, and vendor coordination.
@@ -43,3 +45,4 @@ During the event, the agent can act as a "Virtual Concierge" for guests. If a gu
 - **Personalized Outreach**: Use the guest's first name and reference their previous interactions to make the messages feel more personal.
 - **Urgent Escalation**: Configure a keyword (e.g., "EMERGENCY") that immediately pings the event organizer's phone and provides the guest's location and contact details.
 - **Post-Event Surveys**: Automatically send a 'Thank You' message and a link to a feedback survey to all 'Attended' guests 2 hours after the event ends.
+

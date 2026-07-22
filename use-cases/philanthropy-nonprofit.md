@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Philanthropy & Non-Profit Management
 
 Maximize social impact and donor engagement by using OpenClaw to automate donor research, grant tracking, and impact reporting.
@@ -47,3 +49,4 @@ The agent can act as a 24/7 personal assistant for donors. If a donor sends a me
 - **Ethical Research**: The agent must only use publicly available data for donor research and must never share client information with third parties without explicit, time-limited user consent.
 - **Human-in-the-Loop**: For any high-value or complex donor interactions, the agent should only "Suggest" options; the final "Send" or "Book" must be approved by a human development officer.
 - **Compliance**: Ensure all donor communication and data handling comply with relevant regulations (e.g., GDPR, CCPA).
+

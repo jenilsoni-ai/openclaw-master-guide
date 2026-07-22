@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Autonomous Last-Mile Delivery Orchestration
 
 Maximize delivery speed and reduce operational costs by using OpenClaw to automate fleet dispatch, dynamic route optimization, and autonomous delivery robot coordination.
@@ -46,3 +48,4 @@ The agent can analyze 'Historical Demand Patterns' to suggest optimal locations 
 - **Data Privacy**: Customer PII and location data MUST be handled according to strict privacy policies and relevant laws (e.g., GDPR).
 - **Human-in-the-Loop**: Any decision to reroute major fleet operations or handle 'High-Value' order disputes must be confirmed by a human Logistics Manager via the `canvas` interface.
 - **Environmental Responsibility**: The agent should prioritize 'Electric and Autonomous' units in route optimization to minimize the fleet's carbon footprint.
+

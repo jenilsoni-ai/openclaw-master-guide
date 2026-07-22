@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Renewable Energy & Solar Optimization
 
 Maximize energy production and grid stability by using OpenClaw to automate solar farm monitoring, energy storage dispatch, and predictive maintenance.
@@ -44,3 +46,4 @@ The agent can orchestrate multiple distributed energy resources (DERs) like resi
 - **Manual Overrides**: All automated grid dispatch or storage control tasks MUST have a physical manual override for safety.
 - **Fail-Safe Logic**: If the communication with the inverters or the weather API is lost, the agent must alert the operator and switch to a 'Conservative Default' operating mode.
 - **Calibration**: Regularly verify AI-generated 'Fault Alerts' with physical field inspections to ensure the diagnostic models remain accurate for your specific equipment.
+

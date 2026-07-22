@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: E-commerce Price War & Inventory Intelligence
 
 Stay competitive in the fast-paced e-commerce market by automating competitor price tracking, stock monitoring, and dynamic pricing alerts.
@@ -38,3 +40,4 @@ The agent can monitor social media and review sites for "out of stock" complaint
 - **IP Rotation**: Use the `proxy-manager` skill to avoid being rate-limited or blocked by large e-commerce platforms.
 - **Visual Verification**: Have the agent take a screenshot of the competitor's price as "proof" to include in the alert message.
 - **Data Integrity**: Use the `python` tool to clean and normalize currency data (e.g., converting everything to USD) before comparison.
+

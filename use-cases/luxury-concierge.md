@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-First Luxury Concierge & Personalized Travel Planning
 
 Provide high-touch, personalized service by using OpenClaw to automate travel planning, luxury reservations, and exclusive event access.
@@ -45,3 +47,4 @@ The agent can act as a 24/7 personal assistant for the client. If a client sends
 - **Discretion**: The agent must never share client information with third parties without explicit, time-limited user consent.
 - **Human-in-the-Loop**: For any high-value or complex bookings, the agent should only "Suggest" options; the final "Book" must be approved by the client or a human concierge.
 - **Secure Communication**: Use encrypted messaging channels like Signal or WhatsApp for all client interactions.
+

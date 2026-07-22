@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Autonomous Laboratory Research & Experiment Orchestration
 
 Maximize scientific discovery and reproducibility by using OpenClaw to automate experiment design, lab automation control, and real-time data analysis.
@@ -48,3 +50,4 @@ The agent can operate in a 'Closed-Loop' mode. It designs an experiment, execute
 - **Scientific Integrity**: The agent must maintain a complete, immutable 'Electronic Lab Notebook' (ELN) of all experimental designs, execution logs, and data analysis.
 - **Human-in-the-Loop**: Any decision to start a new 'High-Cost' or 'High-Risk' experiment must be confirmed by a human Principal Investigator (PI) via the `canvas` interface.
 - **Data Privacy**: Ensure all research data is handled according to institutional data protection policies and relevant regulations (e.g., HIPAA).
+

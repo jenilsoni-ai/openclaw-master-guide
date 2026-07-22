@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Oil & Gas Pipeline Integrity & Leak Detection
 
 Maximize energy security and environmental protection by using OpenClaw to automate pipeline pressure monitoring, leak detection, and predictive corrosion analysis.
@@ -46,3 +48,4 @@ The agent can monitor 'Geological Hazards' (e.g., earthquakes, landslides) along
 - **Physical Safety**: The agent must never authorize physical valve closure or repair work; all AI-generated alerts and shutdown protocols MUST be validated by a human Control Room Operator.
 - **Regulatory Compliance**: The agent must adhere to strict energy safety regulations (e.g., PHMSA in the US). All AI-generated reports must be stored in a 'Tamper-Proof' log for regulatory audits.
 - **Environmental Responsibility**: The agent should prioritize 'Leak Prevention' and 'Rapid Response' to minimize environmental impact and potential liability.
+

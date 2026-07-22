@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Powered Cybersecurity Forensics & Incident Investigation
 
 Accelerate digital forensics and incident response (DFIR) by using OpenClaw to automate evidence collection, log correlation, and threat actor profiling.
@@ -46,3 +48,4 @@ The agent can automatically calculate cryptographic hashes (SHA-256) for all col
 - **Data Integrity**: All forensic tools used by the agent must be 'Read-Only' on the target systems to prevent accidental evidence alteration.
 - **Legal Review**: Any AI-generated forensic reports must be reviewed and validated by a human Forensic Examiner before being used in legal proceedings.
 - **Privacy**: Ensure all PII (Personally Identifiable Information) is handled according to corporate policy and relevant data protection laws (e.g., GDPR).
+

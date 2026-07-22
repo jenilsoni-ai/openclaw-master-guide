@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: Real Estate Lead Nurturing & CRM Synchronization
 
 Maximize conversion rates by automating the intake, qualification, and synchronization of real estate leads across marketing platforms and your CRM.
@@ -42,3 +44,4 @@ The agent can monitor new listings on the MLS (via browser scraping). When a pro
 - **Speed to Lead**: Aim for sub-5 minute response times, which OpenClaw handles effortlessly 24/7.
 - **A/B Testing**: Have the agent try different outreach scripts to see which one gets a higher response rate.
 - **Human Handoff**: Configure a keyword (e.g., "CALL ME") that immediately pings your phone and provides the full conversation transcript.
+

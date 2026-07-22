@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Driven Aviation Maintenance & Engine Health Monitoring
 
 Maximize aircraft availability and safety by using OpenClaw to automate predictive engine health monitoring, maintenance scheduling, and regulatory compliance auditing.
@@ -46,3 +48,4 @@ The agent can monitor the 'Spare Parts Inventory'. When a predictive maintenance
 - **Physical Safety**: The agent must never authorize physical maintenance or flight release; all AI-generated alerts and schedules MUST be validated by a human Certified Mechanic or Quality Inspector.
 - **Regulatory Compliance**: The agent must adhere to strict aviation safety regulations (e.g., FAA Part 145). All AI-generated reports must be stored in a 'Tamper-Proof' log for regulatory audits.
 - **Privacy**: Ensure all PII (Personally Identifiable Information) and sensitive operational data is handled according to strict corporate policy and international aviation laws.
+

@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-Powered Legal Document Review & Compliance
 
 Streamline legal operations by automating contract analysis, deadline tracking, and compliance auditing using OpenClaw's advanced document processing capabilities.
@@ -42,3 +44,4 @@ The agent can compare a new contract against your firm's "Gold Standard" clause 
 - **Confidentiality**: Ensure the agent is running on a local machine or a private VPC with no public data exposure.
 - **Human-in-the-Loop**: Never allow the agent to sign or finalize documents without manual approval via the `canvas` interface.
 - **PII Redaction**: Use a pre-processing skill to redact sensitive personal information before the document is analyzed by the LLM.
+

@@ -1,3 +1,5 @@
+> **Status: Blueprint** — This page describes a target architecture. Skill names and command sequences may be conceptual rather than installed OpenClaw capabilities. Verify each integration against current official documentation, test in an isolated environment, and require human approval before consequential actions.
+
 # Use Case: AI-First HR Recruitment & Resume Screening
 
 Transform your hiring process by using OpenClaw to automate candidate sourcing, resume evaluation, and interview scheduling with high-precision matching.
@@ -43,3 +45,4 @@ The agent can analyze a candidate's GitHub profile or portfolio and generate 5-1
 - **Bias Mitigation**: Configure the agent to redact names, gender, and photos during the initial screening phase to ensure a focus on skills.
 - **Data Retention**: Set an automatic deletion policy for resumes after the hiring process is complete to comply with GDPR/CCPA.
 - **Human Oversight**: The agent should only "Suggest" candidates for interviews; the final "Invite" must be approved by a human recruiter via the `canvas` interface.
+
